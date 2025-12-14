@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Arabic font */
+html {
+  font-family: 'Tajawal', sans-serif;
+}

@@ -1,0 +1,61 @@
+# =====================
+# Node / Frontend
+# =====================
+node_modules/
+dist/
+build/
+.next/
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.so
+venv/
+.venv/
+*venv*/
+
+# =====================
+# Environment files
+# =====================
+.env
+*.env
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# =====================
+# AI Models / Datasets (CRITICAL)
+# =====================
+model/
+checkpoints/
+weights/
+datasets/
+data/
+
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.safetensors
+
+# =====================
+# Databases
+# =====================
+*.db
+*.sqlite
+*.sqlite3
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
